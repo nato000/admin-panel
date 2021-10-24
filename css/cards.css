@@ -1,0 +1,153 @@
+.stats-card {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+
+.card {
+   background: #ffffff;
+   border: 1px solid #dfe0eb;
+   border-radius: 8px;
+}
+
+.card-hovered {
+   width: 23%;
+   transition: 0.2s ease-in-out;
+}
+
+.card-hovered:hover {
+   border: 1px solid #3751ff;
+}
+
+.number,
+.h2--card {
+   margin: 20px 0;
+   font-weight: 700;
+   text-align: center;
+   transition: 0.2s ease-in-out;
+}
+
+.h2--card {
+   color: #9fa2b4;
+   font-size: 19px;
+   letter-spacing: 0.4px;
+}
+
+.number {
+   font-size: 40px;
+   color: #252733;
+}
+
+.card-hovered:hover .h2--card {
+   color: #3751ff;
+}
+
+.card-hovered:hover .number {
+   color: #3751ff;
+}
+
+.card-chart {
+   margin-top: 30px;
+   max-width: 100%;
+   display: flex;
+}
+.graph-image {
+   width: 100%;
+}
+
+.h5,
+.number-small {
+   margin: 10px;
+}
+
+.h5 {
+   font-size: 16px;
+   font-weight: 600;
+   color: #9fa2b4;
+}
+
+.number-small {
+   font-size: 24px;
+   font-weight: 700;
+   color: #252733;
+}
+
+.card-chart__left {
+   padding: 30px;
+}
+
+.card-chart__right {
+   width: 55%;
+   display: flex;
+   flex-direction: column;
+}
+
+.card-item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+   border-bottom: none;
+}
+
+.border-left {
+   border-left: 1px solid #dfe0eb;
+}
+
+.border-bottom {
+   border-bottom: 1px solid #dfe0eb;
+}
+
+.two-cards__wrapper {
+   margin-top: 30px;
+   margin-bottom: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.two-cards {
+   width: 49%;
+   height: 100%;
+   padding: 20px 0 0 0;
+}
+
+.two-card__headline {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 30px;
+   height: 70px;
+   height: 100%;
+}
+
+.card-items {
+   height: 100%;
+}
+
+.space-two-card {
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 0 30px;
+   height: 58px;
+}
+
+.tickets-card-item {
+   flex-direction: row;
+   padding: 5px 20px;
+}
+
+.ticket-detail {
+   width: 40%;
+   display: flex;
+   align-items: center;
+}
+.customer-name {
+   width: 20%;
+}
+.date {
+   width: 20%;
+}
+.priority {
+   width: 20%;
+}
