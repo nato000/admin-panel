@@ -18,6 +18,7 @@
       <link rel="stylesheet" href="./css/links.css" />
       <link rel="stylesheet" href="./css/btn.css" />
       <link rel="stylesheet" href="./css/cards.css" />
+      <link rel="stylesheet" href="./css/label.css" />
 
       <title>panel</title>
    </head>
@@ -295,7 +296,7 @@
                   <div class="card card-chart">
                      <div class="card-chart__left">
                         <h3 class="h3">Today's trends</h3>
-                        <h6 class="small-headlines">as of 25 May 2019, 09:41 PM</h6>
+                        <h6 class="small-light-text">as of 25 May 2019, 09:41 PM</h6>
                         <img src="./img/graph.png" alt="" class="graph-image" />
                      </div>
                      <div class="card-chart__right">
@@ -326,7 +327,7 @@
                         <div class="two-card__headline">
                            <div class="headline-left">
                               <h3 class="h3">Today's trends</h3>
-                              <h6 class="small-headlines">
+                              <h6 class="small-light-text">
                                  Group: <span class="headline-dark">Support</span>
                               </h6>
                            </div>
@@ -337,19 +338,19 @@
                         <div class="card-items">
                            <div class="card-item space-two-card border-bottom">
                               <p class="text">Waiting on Feature Request</p>
-                              <p class="small-headlines">4238</p>
+                              <p class="small-light-text">4238</p>
                            </div>
                            <div class="card-item space-two-card border-bottom">
                               <p class="text">Awaiting Customer Response</p>
-                              <p class="small-headlines">1005</p>
+                              <p class="small-light-text">1005</p>
                            </div>
                            <div class="card-item space-two-card border-bottom">
                               <p class="text">Awaiting Developer Fix</p>
-                              <p class="small-headlines">914</p>
+                              <p class="small-light-text">914</p>
                            </div>
                            <div class="card-item space-two-card">
                               <p class="text">Pending</p>
-                              <p class="small-headlines">281</p>
+                              <p class="small-light-text">281</p>
                            </div>
                         </div>
                      </div>
@@ -357,15 +358,15 @@
                         <div class="two-card__headline">
                            <div class="headline-left">
                               <h3 class="h3">Tasks</h3>
-                              <h6 class="small-headlines">Today</h6>
+                              <h6 class="small-light-text">Today</h6>
                            </div>
                            <div class="headline-right">
-                              <a href="#" class="detail-link">View detail</a>
+                              <a href="#" class="detail-link">View all</a>
                            </div>
                         </div>
                         <div class="card-items">
                            <div class="card-item space-two-card border-bottom">
-                              <h6 class="small-headlines">Create new task</h6>
+                              <h6 class="small-light-text">Create new task</h6>
                               <button class="plus-button">
                                  <svg
                                     width="12"
@@ -394,21 +395,25 @@
                                  <input type="radio" name="two-card__radio" id="" />
                                  Awaiting Customer Response
                               </p>
-                              <p class="small-headlines">1005</p>
+                              <label class="status-label status-label--yellow"
+                                 >urgent</label
+                              >
                            </div>
                            <div class="card-item space-two-card border-bottom">
                               <p class="text">
                                  <input type="radio" name="two-card__radio" id="" />
                                  Awaiting Developer Fix
                               </p>
-                              <p class="small-headlines">914</p>
+                              <label class="status-label status-label--green">new</label>
                            </div>
                            <div class="card-item space-two-card">
                               <p class="text">
                                  <input type="radio" name="two-card__radio" id="" />
                                  Pending
                               </p>
-                              <p class="small-headlines">281</p>
+                              <label class="status-label status-label--gray"
+                                 >default</label
+                              >
                            </div>
                         </div>
                      </div>

@@ -1,0 +1,9 @@
+.tickets-card-item{
+    padding: 22px;
+}
+
+.ticket-card__column{
+    display: flex;
+    flex-direction: column;
+}
+

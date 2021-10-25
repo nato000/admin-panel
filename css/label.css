@@ -1,0 +1,33 @@
+.ticket-status-label,
+.status-label {
+   font-weight: 700;
+   font-size: 11px;
+   padding: 5px 12px;
+   text-transform: uppercase;
+}
+
+.status-label {
+   border-radius: 8px;
+}
+
+.ticket-status-label {
+   border-radius: 100px;
+}
+
+.status-label--red {
+   background: red;
+   color: white;
+}
+
+.status-label--yellow {
+   background: #fec400;
+   color: white;
+}
+.status-label--green {
+   background: #29cc97;
+   color: white;
+}
+.status-label--gray {
+   background: #f0f1f7;
+   color: #9fa2b4;
+}
