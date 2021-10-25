@@ -19,6 +19,7 @@
       <link rel="stylesheet" href="./css/btn.css" />
       <link rel="stylesheet" href="./css/cards.css" />
       <link rel="stylesheet" href="./css/label.css" />
+      <link rel="stylesheet" href="./css/search-panel.css" />
 
       <title>panel</title>
    </head>
@@ -229,29 +230,32 @@
                </div>
                <div class="dashboard__header-right">
                   <div class="btn-wrapper">
-                     <button class="btn header-btn search-btn">
-                        <svg
-                           width="16"
-                           height="16"
-                           viewBox="0 0 16 16"
-                           fill="none"
-                           xmlns="http://www.w3.org/2000/svg"
-                        >
-                           <circle
-                              cx="6.5"
-                              cy="6.5"
-                              r="5.75"
-                              stroke="#C5C7CD"
-                              stroke-width="1.5"
-                           />
-                           <path
-                              d="M11 11L15 15"
-                              stroke="#C5C7CD"
-                              stroke-width="1.5"
-                              stroke-linecap="round"
-                           />
-                        </svg>
-                     </button>
+                     <div class="search-panel">
+                        <button class="btn header-btn search-btn">
+                           <svg
+                              width="16"
+                              height="16"
+                              viewBox="0 0 16 16"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                           >
+                              <circle
+                                 cx="6.5"
+                                 cy="6.5"
+                                 r="5.75"
+                                 stroke="#C5C7CD"
+                                 stroke-width="1.5"
+                              />
+                              <path
+                                 d="M11 11L15 15"
+                                 stroke="#C5C7CD"
+                                 stroke-width="1.5"
+                                 stroke-linecap="round"
+                              />
+                           </svg>
+                        </button>
+                        <input type="search" name="search-panel" id="search" class="input-search">
+                     </div>
                      <button class="btn header-btn notification-btn">
                         <svg
                            width="14"
