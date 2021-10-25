@@ -3,7 +3,13 @@
    background-color: transparent;
 }
 
-.header-btn {
+.btn:hover {
+   cursor: pointer;
+}
+
+.btn:focus {
+   outline: 2px solid #4b506d8c;
+   border-radius: 5px;
 }
 
 .plus-button {
@@ -14,7 +20,11 @@
    padding: 6px;
 }
 
-.sort-button{
+.sort-button {
    display: flex;
    align-items: center;
+}
+
+.ticket-card__wrapper-btn {
+   margin: 0 5px;
 }

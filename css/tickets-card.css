@@ -1,9 +1,41 @@
-.tickets-card-item{
-    padding: 22px;
+.tickets-card-item {
+   padding: 22px;
 }
 
-.ticket-card__column{
-    display: flex;
-    flex-direction: column;
+.ticket-card__column {
+   display: flex;
+   flex-direction: column;
+}
+
+.ticket-card__footer,
+.ticket-card__footer-left,
+.ticket-card__footer-right {
+   display: flex;
+}
+
+.ticket-card__footer {
+   padding: 20px;
+}
+
+.ticket-card__footer-left,
+.ticket-card__footer-right {
+   padding: 0 10px;
+   align-items: center;
+}
+
+.ticket-card__footer-left{
+    margin-left: auto;
+}
+
+.rows-per-page {
+   border: none;
+   color: #4b506d;
+   font-size: 14px;
+   margin: 0 10px;
+}
+
+.rows-per-page:focus {
+    outline: 2px solid #4b506d8c ;
+    border-radius: 5px;
 }
 

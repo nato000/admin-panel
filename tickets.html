@@ -279,7 +279,7 @@
                   <div class="card tickets-card">
                      <div class="tickets-card__headline">
                         <div class="headline-left">
-                           <h3 class="h3">Today's trends</h3>
+                           <h3 class="h3">All tickets</h3>
                         </div>
                         <div class="headline-right">
                            <button class="btn sort-button">
@@ -490,7 +490,7 @@
                      </div>
                      <div class="card-item border-bottom tickets-card-item">
                         <div class="headlines-dark ticket-detail">
-                           <img src="./img/man-2.png" alt="" class="profile__avatar" />
+                           <img src="./img/man-2.png" class="profile__avatar" />
                            <div class="ticket-card__column">
                               <span class="text">Contact Email not Linked</span>
                               <span class="small-light-text">Updated 1 day ago</span>
@@ -510,9 +510,57 @@
                         </div>
                         <div class="headlines-dark priority">
                            <div class="ticket-card__column">
-                              <label class="ticket-status-label status-label--red"
-                                 >high</label
-                              >
+                              <label class="ticket-status-label status-label--red">
+                                 high
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="ticket-card__footer">
+                        <div class="ticket-card__footer-left">
+                           <span class="small-light-text">Rows per page: </span>
+                           <select name="rows" id="row" class="rows-per-page">
+                              <option value="1" selected>1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                           </select>
+                        </div>
+                        <div class="ticket-card__footer-right">
+                           <span class="ticket-card__footer-pages small-light-text">1-8 of 1240</span>
+                           <div class="ticket-card__wrapper-btn">
+                              <button class="btn ticket-card__footer-btn">
+                                 <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                 >
+                                    <path
+                                       d="M15 18L9.07071 12.0707C9.03166 12.0317 9.03166 11.9683 9.07071 11.9293L15 6"
+                                       stroke="#9FA2B4"
+                                       stroke-width="2"
+                                       stroke-linecap="round"
+                                    />
+                                 </svg>
+                              </button>
+                              <button class="btn ticket-card__footer-btn">
+                                 <svg
+                                    width="24"
+                                    height="24"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                 >
+                                    <path
+                                       d="M9 18L14.9293 12.0707C14.9683 12.0317 14.9683 11.9683 14.9293 11.9293L9 6"
+                                       stroke="#9FA2B4"
+                                       stroke-width="2"
+                                       stroke-linecap="round"
+                                    />
+                                 </svg>
+                              </button>
                            </div>
                         </div>
                      </div>
