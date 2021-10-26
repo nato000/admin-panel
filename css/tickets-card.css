@@ -23,8 +23,8 @@
    align-items: center;
 }
 
-.ticket-card__footer-left{
-    margin-left: auto;
+.ticket-card__footer-left {
+   margin-left: auto;
 }
 
 .rows-per-page {
@@ -35,7 +35,16 @@
 }
 
 .rows-per-page:focus {
-    outline: 2px solid #4b506d8c ;
-    border-radius: 5px;
+   outline: 2px solid #4b506d8c;
+   border-radius: 5px;
 }
 
+.flex-row {
+   flex-direction: row;
+   width: 80%;
+   justify-content: space-between;
+}
+
+.priority {
+   width: 20%;
+}
