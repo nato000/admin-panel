@@ -1,33 +1,34 @@
-.ticket-status-label,
-.status-label {
+.badge {
    font-weight: 700;
    font-size: 11px;
    padding: 5px 12px;
    text-transform: uppercase;
+   display: flex;
+   align-items: center;
 }
 
-.status-label {
-   border-radius: 8px;
-}
-
-.ticket-status-label {
-   border-radius: 100px;
-}
-
-.status-label--red {
+.badge--red {
    background: red;
    color: white;
 }
-
-.status-label--yellow {
+.badge--yellow {
    background: #fec400;
    color: white;
 }
-.status-label--green {
+.badge--green {
    background: #29cc97;
    color: white;
 }
-.status-label--gray {
+.badge--gray {
    background: #f0f1f7;
    color: #9fa2b4;
 }
+
+.badge--type-task {
+   border-radius: 8px;
+}
+
+.badge--type-ticket {
+   border-radius: 100px;
+}
+

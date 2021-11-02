@@ -8,7 +8,7 @@
 }
 
 .btn:focus {
-   outline: 2px solid #4b506d8c;
+   outline: 1px solid #4b506d8c;
    border-radius: 5px;
 }
 
@@ -25,6 +25,3 @@
    align-items: center;
 }
 
-.ticket-card__wrapper-btn {
-   margin: 0 5px;
-}

@@ -1,4 +1,4 @@
-.dashboard__header {
+.app__header {
    display: flex;
    justify-content: space-between;
    padding: 20px 0;
@@ -6,17 +6,19 @@
    box-shadow: 20px 12px 20px 12px #f7f8fc;
 }
 
-.dashboard__header-left {
+.app__header-left {
    display: flex;
 }
 
-.dashboard__header-right {
+.app__header-right {
    display: flex;
    align-items: center;
 }
 
-.btn-wrapper {
+.app__header-btn-wrapper {
    display: flex;
+   position: relative;
+   padding: 0 35px 0 0;
 }
 
 .profile {
