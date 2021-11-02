@@ -17,6 +17,8 @@
 
 .btn-wrapper {
    display: flex;
+   position: relative;
+   padding: 0 35px 0 0;
 }
 
 .profile {

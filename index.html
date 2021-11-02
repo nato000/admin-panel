@@ -12,16 +12,8 @@
          rel="stylesheet"
       />
       <link rel="stylesheet" href="./css/main.css" />
-      <link rel="stylesheet" href="./css/header.css" />
-      <link rel="stylesheet" href="./css/headlines.css" />
-      <link rel="stylesheet" href="./css/navigation.css" />
-      <link rel="stylesheet" href="./css/links.css" />
-      <link rel="stylesheet" href="./css/btn.css" />
-      <link rel="stylesheet" href="./css/cards.css" />
-      <link rel="stylesheet" href="./css/label.css" />
-      <link rel="stylesheet" href="./css/search-panel.css" />
 
-      <title>panel</title>
+      <title>Dashboard</title>
    </head>
    <body>
       <div class="app">
@@ -177,7 +169,7 @@
                   </div>
                   Articles</a
                >
-               <hr class="sidenav-hr" />
+               <hr class="sidenav-line" />
                <a href="#" class="sidenav-item"
                   ><div class="sidenav-icon">
                      <svg
@@ -226,12 +218,12 @@
          <main class="main-wrapper">
             <header class="header dashboard__header">
                <div class="dashboard__header-left">
-                  <h1 class="owerview">Owerview</h1>
+                  <h1 class="page-title">Owerview</h1>
                </div>
                <div class="dashboard__header-right">
                   <div class="btn-wrapper">
                      <div class="search-panel">
-                        <button class="btn header-btn search-btn">
+                        <label for="search" class="btn header-btn search-btn">
                            <svg
                               width="16"
                               height="16"
@@ -253,8 +245,8 @@
                                  stroke-linecap="round"
                               />
                            </svg>
-                        </button>
-                        <input type="search" name="search-panel" id="search" class="input-search">
+                        </label>
+                        <input type="search" id="search" class="input-search" />
                      </div>
                      <button class="btn header-btn notification-btn">
                         <svg
@@ -272,153 +264,153 @@
                      </button>
                   </div>
                   <div class="profile">
-                     <a href="" class="profile__link"> Jones Ferdinand </a>
-                     <img src="./img/profile_logo.png" alt="" class="profile__avatar" />
+                     <a href="" class="profile__link">
+                        Jones Ferdinand
+                        <img
+                           src="./img/profile_logo.png"
+                           alt=""
+                           class="profile__avatar"
+                        />
+                     </a>
                   </div>
                </div>
             </header>
             <div class="app-content">
-               <div class="container">
-                  <div class="stats-card">
-                     <div class="card card-hovered">
-                        <h2 class="h2 h2--card">Unresolvrd</h2>
-                        <p class="number">60</p>
+               <div class="card-stats">
+                  <div class="card card-has-hover">
+                     <h2 class="card-stats__title">Unresolvrd</h2>
+                     <p class="counter">60</p>
+                  </div>
+                  <div class="card card-has-hover">
+                     <h2 class="card-stats__title">Overdue</h2>
+                     <p class="counter">16</p>
+                  </div>
+                  <div class="card card-has-hover">
+                     <h2 class="card-stats__title">Unresolvrd</h2>
+                     <p class="counter">43</p>
+                  </div>
+                  <div class="card card-has-hover">
+                     <h2 class="card-stats__title">Unresolvrd</h2>
+                     <p class="counter">64</p>
+                  </div>
+               </div>
+               <div class="card card-trends">
+                  <div class="card-trends__left">
+                     <h3 class="card-title">Today's trends</h3>
+                     <h6 class="small-light-text">as of 25 May 2019, 09:41 PM</h6>
+                     <img src="./img/graph.png" alt="" class="graph-image" />
+                  </div>
+                  <div class="card-trends__right">
+                     <div class="card-item card-border-left card-border-bottom">
+                        <h5 class="card-trends__title">Resolved</h5>
+                        <p class="counter-small">449</p>
                      </div>
-                     <div class="card card-hovered">
-                        <h2 class="h2 h2--card">Overdue</h2>
-                        <p class="number">16</p>
+                     <div class="card-item card-border-left card-border-bottom">
+                        <h5 class="card-trends__title">Resolved</h5>
+                        <p class="counter-small">449</p>
                      </div>
-                     <div class="card card-hovered">
-                        <h2 class="h2 h2--card">Unresolvrd</h2>
-                        <p class="number">43</p>
+                     <div class="card-item card-border-left card-border-bottom">
+                        <h5 class="card-trends__title">Resolved</h5>
+                        <p class="counter-small">449</p>
                      </div>
-                     <div class="card card-hovered">
-                        <h2 class="h2 h2--card">Unresolvrd</h2>
-                        <p class="number">64</p>
+                     <div class="card-item card-border-left card-border-bottom">
+                        <h5 class="card-trends__title">Resolved</h5>
+                        <p class="counter-small">449</p>
+                     </div>
+                     <div class="card-item card-border-left">
+                        <h5 class="card-trends__title">Resolved</h5>
+                        <p class="counter-small">449</p>
                      </div>
                   </div>
-                  <div class="card card-chart">
-                     <div class="card-chart__left">
-                        <h3 class="h3">Today's trends</h3>
-                        <h6 class="small-light-text">as of 25 May 2019, 09:41 PM</h6>
-                        <img src="./img/graph.png" alt="" class="graph-image" />
+               </div>
+               <div class="card-column__wrapper">
+                  <div class="card card-column">
+                     <div class="card-column__headline">
+                        <div class="card-column__headline-left">
+                           <h3 class="card-title">Today's trends</h3>
+                           <h6 class="small-light-text">
+                              Group: <span class="headline-dark">Support</span>
+                           </h6>
+                        </div>
+                        <div class="card-column__headline-right">
+                           <a href="#" class="view-link">View detail</a>
+                        </div>
                      </div>
-                     <div class="card-chart__right">
-                        <div class="card-item border-left border-bottom">
-                           <h5 class="h5">Resolved</h5>
-                           <p class="number-small">449</p>
+                     <div class="card-items">
+                        <div class="card-item card-column-item card-border-bottom">
+                           <p class="text">Waiting on Feature Request</p>
+                           <p class="small-light-text">4238</p>
                         </div>
-                        <div class="card-item border-left border-bottom">
-                           <h5 class="h5">Resolved</h5>
-                           <p class="number-small">449</p>
+                        <div class="card-item card-column-item card-border-bottom">
+                           <p class="text">Awaiting Customer Response</p>
+                           <p class="small-light-text">1005</p>
                         </div>
-                        <div class="card-item border-left border-bottom">
-                           <h5 class="h5">Resolved</h5>
-                           <p class="number-small">449</p>
+                        <div class="card-item card-column-item card-border-bottom">
+                           <p class="text">Awaiting Developer Fix</p>
+                           <p class="small-light-text">914</p>
                         </div>
-                        <div class="card-item border-left border-bottom">
-                           <h5 class="h5">Resolved</h5>
-                           <p class="number-small">449</p>
-                        </div>
-                        <div class="card-item border-left">
-                           <h5 class="h5">Resolved</h5>
-                           <p class="number-small">449</p>
+                        <div class="card-item card-column-item">
+                           <p class="text">Pending</p>
+                           <p class="small-light-text">281</p>
                         </div>
                      </div>
                   </div>
-                  <div class="two-cards__wrapper">
-                     <div class="card two-cards">
-                        <div class="two-card__headline">
-                           <div class="headline-left">
-                              <h3 class="h3">Today's trends</h3>
-                              <h6 class="small-light-text">
-                                 Group: <span class="headline-dark">Support</span>
-                              </h6>
-                           </div>
-                           <div class="headline-right">
-                              <a href="#" class="view-link">View detail</a>
-                           </div>
+                  <div class="card card-column">
+                     <div class="card-column__headline">
+                        <div class="card-column__headline-left">
+                           <h3 class="card-title">Tasks</h3>
+                           <h6 class="small-light-text">Today</h6>
                         </div>
-                        <div class="card-items">
-                           <div class="card-item space-two-card border-bottom">
-                              <p class="text">Waiting on Feature Request</p>
-                              <p class="small-light-text">4238</p>
-                           </div>
-                           <div class="card-item space-two-card border-bottom">
-                              <p class="text">Awaiting Customer Response</p>
-                              <p class="small-light-text">1005</p>
-                           </div>
-                           <div class="card-item space-two-card border-bottom">
-                              <p class="text">Awaiting Developer Fix</p>
-                              <p class="small-light-text">914</p>
-                           </div>
-                           <div class="card-item space-two-card">
-                              <p class="text">Pending</p>
-                              <p class="small-light-text">281</p>
-                           </div>
+                        <div class="card-column__headline-right">
+                           <a href="#" class="view-link">View all</a>
                         </div>
                      </div>
-                     <div class="card two-cards">
-                        <div class="two-card__headline">
-                           <div class="headline-left">
-                              <h3 class="h3">Tasks</h3>
-                              <h6 class="small-light-text">Today</h6>
-                           </div>
-                           <div class="headline-right">
-                              <a href="#" class="view-link">View all</a>
-                           </div>
+                     <div class="card-items">
+                        <div class="card-item card-column-item card-border-bottom">
+                           <h6 class="small-light-text">Create new task</h6>
+                           <button class="plus-button">
+                              <svg
+                                 width="12"
+                                 height="12"
+                                 viewBox="0 0 12 12"
+                                 fill="none"
+                                 xmlns="http://www.w3.org/2000/svg"
+                              >
+                                 <path
+                                    d="M6 1V11"
+                                    stroke="#9FA2B4"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                 />
+                                 <path
+                                    d="M11 6L1 6"
+                                    stroke="#9FA2B4"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                 />
+                              </svg>
+                           </button>
                         </div>
-                        <div class="card-items">
-                           <div class="card-item space-two-card border-bottom">
-                              <h6 class="small-light-text">Create new task</h6>
-                              <button class="plus-button">
-                                 <svg
-                                    width="12"
-                                    height="12"
-                                    viewBox="0 0 12 12"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                 >
-                                    <path
-                                       d="M6 1V11"
-                                       stroke="#9FA2B4"
-                                       stroke-width="2"
-                                       stroke-linecap="round"
-                                    />
-                                    <path
-                                       d="M11 6L1 6"
-                                       stroke="#9FA2B4"
-                                       stroke-width="2"
-                                       stroke-linecap="round"
-                                    />
-                                 </svg>
-                              </button>
-                           </div>
-                           <div class="card-item space-two-card border-bottom">
-                              <p class="text">
-                                 <input type="radio" name="two-card__radio" id="" />
-                                 Awaiting Customer Response
-                              </p>
-                              <label class="status-label status-label--yellow"
-                                 >urgent</label
-                              >
-                           </div>
-                           <div class="card-item space-two-card border-bottom">
-                              <p class="text">
-                                 <input type="radio" name="two-card__radio" id="" />
-                                 Awaiting Developer Fix
-                              </p>
-                              <label class="status-label status-label--green">new</label>
-                           </div>
-                           <div class="card-item space-two-card">
-                              <p class="text">
-                                 <input type="radio" name="two-card__radio" id="" />
-                                 Pending
-                              </p>
-                              <label class="status-label status-label--gray"
-                                 >default</label
-                              >
-                           </div>
+                        <div class="card-item card-column-item card-border-bottom">
+                           <p class="text">
+                              <input type="radio" name="two-card__radio" />
+                              Awaiting Customer Response
+                           </p>
+                           <label class="badge badge--type-task badge--yellow">urgent</label>
+                        </div>
+                        <div class="card-item card-column-item card-border-bottom">
+                           <p class="text">
+                              <input type="radio" name="two-card__radio" />
+                              Awaiting Developer Fix
+                           </p>
+                           <label class="badge badge--type-task badge--green">new</label>
+                        </div>
+                        <div class="card-item card-column-item">
+                           <p class="text">
+                              <input type="radio" name="two-card__radio" />
+                              Pending
+                           </p>
+                           <label class="badge badge--type-task badge--gray">default</label>
                         </div>
                      </div>
                   </div>
@@ -426,5 +418,8 @@
             </div>
          </main>
       </div>
+      <script>
+         1;
+      </script>
    </body>
 </html>
