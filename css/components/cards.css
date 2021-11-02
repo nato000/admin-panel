@@ -124,7 +124,21 @@
 }
 
 .card-items {
-   height: 100%;
+   padding: 0;
+}
+
+.card-input {
+   border: none;
+   border-bottom: 1px solid transparent;
+   background-color: transparent;
+   line-height: 30px;
+   width: 45%;
+   transition: 0.2s ease-in-out;
+}
+
+.card-input:focus {
+   outline: none;
+   border-bottom: 1px solid #9fa2b4;
 }
 
 .card-column-item {

@@ -336,24 +336,24 @@
                            <a href="#" class="view-link">View detail</a>
                         </div>
                      </div>
-                     <div class="card-items">
-                        <div class="card-item card-column-item card-border-bottom">
+                     <ul class="card-items">
+                        <li class="card-item card-column-item card-border-bottom">
                            <p class="text">Waiting on Feature Request</p>
                            <p class="small-light-text">4238</p>
-                        </div>
-                        <div class="card-item card-column-item card-border-bottom">
+                        </li>
+                        <li class="card-item card-column-item card-border-bottom">
                            <p class="text">Awaiting Customer Response</p>
                            <p class="small-light-text">1005</p>
-                        </div>
-                        <div class="card-item card-column-item card-border-bottom">
+                        </li>
+                        <li class="card-item card-column-item card-border-bottom">
                            <p class="text">Awaiting Developer Fix</p>
                            <p class="small-light-text">914</p>
-                        </div>
-                        <div class="card-item card-column-item">
+                        </li>
+                        <li class="card-item card-column-item">
                            <p class="text">Pending</p>
                            <p class="small-light-text">281</p>
-                        </div>
-                     </div>
+                        </li>
+                     </ul>
                   </div>
                   <div class="card card-column">
                      <div class="card-column__headline">
@@ -365,9 +365,13 @@
                            <a href="#" class="view-link">View all</a>
                         </div>
                      </div>
-                     <div class="card-items">
-                        <div class="card-item card-column-item card-border-bottom">
-                           <h6 class="small-light-text">Create new task</h6>
+                     <ul class="card-items">
+                        <li class="card-item card-column-item card-border-bottom">
+                           <input
+                              type="text"
+                              class="small-light-text card-input"
+                              placeholder="Create new task"
+                           />
                            <button class="plus-button">
                               <svg
                                  width="12"
@@ -390,29 +394,44 @@
                                  />
                               </svg>
                            </button>
-                        </div>
-                        <div class="card-item card-column-item card-border-bottom">
+                        </li>
+                        <li class="card-item card-column-item card-border-bottom">
                            <p class="text">
-                              <input type="radio" name="two-card__radio" />
-                              Awaiting Customer Response
+                              <input type="radio" name="two-card__radio" id="radio-1" />
+                              <label for="radio-1"> Awaiting Customer Response </label>
                            </p>
-                           <label class="badge badge--type-task badge--yellow">urgent</label>
-                        </div>
-                        <div class="card-item card-column-item card-border-bottom">
+                           <label
+                              for="radio-1"
+                              class="badge badge--type-task badge--yellow"
+                           >
+                              urgent
+                           </label>
+                        </li>
+                        <li class="card-item card-column-item card-border-bottom">
                            <p class="text">
-                              <input type="radio" name="two-card__radio" />
-                              Awaiting Developer Fix
+                              <input type="radio" name="two-card__radio" id="radio-2" />
+                              <label for="radio-2"> Awaiting Developer Fix </label>
                            </p>
-                           <label class="badge badge--type-task badge--green">new</label>
-                        </div>
-                        <div class="card-item card-column-item">
+                           <label
+                              for="radio-2"
+                              class="badge badge--type-task badge--green"
+                           >
+                              new
+                           </label>
+                        </li>
+                        <li class="card-item card-column-item">
                            <p class="text">
-                              <input type="radio" name="two-card__radio" />
-                              Pending
+                              <input type="radio" name="two-card__radio" id="radio-3" />
+                              <label for="radio-3">Pending</label>
                            </p>
-                           <label class="badge badge--type-task badge--gray">default</label>
-                        </div>
-                     </div>
+                           <label
+                              for="radio-3"
+                              class="badge badge--type-task badge--gray"
+                           >
+                              default
+                           </label>
+                        </li>
+                     </ul>
                   </div>
                </div>
             </div>
