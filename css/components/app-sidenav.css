@@ -1,17 +1,17 @@
-.sidenav {
+.app__sidenav {
    width: 250px;
    height: 100vh;
    padding: 40px 0 0 0;
    background-color: #363740;
 }
 
-.sidenav-content {
+.app__sidenav-content {
    display: flex;
    flex-direction: column;
    width: 100%;
 }
 
-.sidenav-item {
+.app__sidenav-item {
    display: flex;
    justify-content: start;
    align-items: center;
@@ -26,28 +26,28 @@
    transition: 0.3s ease-in-out;
 }
 
-.sidenav-icon {
+.app__sidenav-icon {
    padding: 0 20px;
 }
 
-.sidenav-item .sidenav-icon svg path {
+.app__sidenav-item .app__sidenav-icon svg path {
    fill: #9a9cad;
    opacity: 0.8;
    transition: 0.3s ease-in-out;
 }
 
-.sidenav-item:hover , .sidenav-item-active {
+.app__sidenav-item:hover , .app__sidenav-item-active {
    color: #dde2ff;
    background-color: rgba(255, 255, 255, 0.226);
    border-left: 3px solid #fff;
 }
 
-.sidenav-item:hover .sidenav-icon svg path {
+.app__sidenav-item:hover .app__sidenav-icon svg path {
    fill: rgb(255, 255, 255);
    opacity: 1;
 }
 
-.sidenav-line {
+.app__sidenav-line {
    width: 100%;
    border: 1px solid #a4a6b3;
    margin: 20px 0;
