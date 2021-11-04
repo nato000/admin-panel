@@ -10,12 +10,12 @@
    margin-top: 20px;
 }
 
-.card-has-hover {
+.card--has-hover {
    width: 23%;
    transition: 0.2s ease-in-out;
 }
 
-.card-has-hover:hover {
+.card--has-hover:hover {
    border: 1px solid #3751ff;
 }
 
@@ -38,11 +38,11 @@
    color: #252733;
 }
 
-.card-has-hover:hover .stats-card__title {
+.card--has-hover:hover .card-stats__title {
    color: #3751ff;
 }
 
-.card-has-hover:hover .counter {
+.card--has-hover:hover .counter {
    color: #3751ff;
 }
 
@@ -51,12 +51,12 @@
    max-width: 100%;
    display: flex;
 }
-.graph-image {
+.card-graph-image {
    width: 100%;
 }
 
 .card-trends__title,
-.counter-small {
+.counter--small {
    margin: 10px;
 }
 
@@ -66,7 +66,7 @@
    color: #9fa2b4;
 }
 
-.counter-small {
+.counter--small {
    font-size: 24px;
    font-weight: 700;
    color: #252733;
@@ -125,6 +125,7 @@
 
 .card-items {
    padding: 0;
+   margin: 0;
 }
 
 .card-input {

@@ -21,12 +21,24 @@
    padding: 0 35px 0 0;
 }
 
-.profile {
+.app__header-profile {
    display: flex;
    padding: 0 30px 0 0;
 }
 
-.profile__avatar {
+.app__header-profile-link {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   text-decoration: none;
+   width: 230px;
+   color: #252733;
+   font-size: 14px;
+   font-weight: 600;
+   padding: 0 0 0 10px;
+}
+
+.app__header-profile-avatar {
    width: 55px;
    margin: 0 20px;
 }

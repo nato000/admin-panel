@@ -1,12 +1,19 @@
-
 .text {
    font-size: 14px;
    font-weight: 600;
 }
 
-.small-light-text {
+.text--small {
    font-size: 12px;
    color: #9fa2b4;
    font-weight: 600;
    margin: 5px 0;
+}
+
+.text--dark {
+   color: #252733;
+}
+
+.text--checkbox {
+   padding: 10px;
 }
